@@ -13,6 +13,11 @@
       "name": "Chun-hao Hu",
       "email": "hu.chunhao@gmail.com",
       "web": "http://blog.huchunhao.com"
+    },
+    {
+      "name": "Diego Araos",
+      "email": "diego@klapmedia.com",
+      "web": "http://klapmedia.com"
     }
   ],
   "bugs": {
@@ -21,7 +26,7 @@
   "repositories": [
     {
       "type": "git",
-      "url": "git@github.com:andzdroid/paypal-express.git",
+      "url": "git@github.com:andzdroid/paypal-express.git"
     }
   ],
   "dependencies": {
