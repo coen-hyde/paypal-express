@@ -23,14 +23,19 @@
   "bugs": {
     "web": "https://github.com/andzdroid/paypal-express/issues"
   },
-  "repositories": [
-    {
-      "type": "git",
-      "url": "git@github.com:andzdroid/paypal-express.git"
-    }
-  ],
-  "dependencies": {
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:andzdroid/paypal-express.git"
   },
+  "dependencies": {},
   "main": "index",
-  "engines": ["node"]
+  "scripts": {
+    "test": "./node_modules/.bin/nodeunit tests/*"
+  },
+  "engines": [
+    "node"
+  ],
+  "devDependencies": {
+    "nodeunit": "~0.8.0"
+  }
 }
